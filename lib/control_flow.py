@@ -50,7 +50,7 @@ def calculator(operation, num1, num2):
             return None
         return num1 / num2
     else:
-        print("Invalid operation")
+        print("Invalid operation!")
         return None
 
 print(calculator("/", 15,3))
